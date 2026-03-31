@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动物园？</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="checkbox" id="toggle" style="display:none;">
+
+    <label for="toggle" class="theme-switch" aria-label="？？？">
+        <span class="switch-ring"></span>
+        <span class="switch-core">
+            <span class="switch-light">？</span>
+            <span class="switch-dark">？？</span>
+        </span>
+    </label>
+
+    <div class="container">
+        <header class="site-header" id="top">
+            <div class="topbar">
+                <div class="brand">
+                    <p class="brand-subtitle">A N0rma1? Z00</p>
+                    <h1>一个普通的？动物园</h1>
+                </div>
+
+                <nav class="main-nav" aria-label="主导航">
+                    <ul class="nav-list">
+                        <li><a href="#top">首页</a></li>
+                        <li><a href="#rules">游客守则</a></li>
+                        <li><a href="#cards">图鉴展区</a></li>
+                        <li><a href="#archive">园区档案</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <section class="hero panel">
+                <div class="hero-copy">
+                    <p class="eyebrow">昼夜双轨 · 单页静态展馆</p>
+
+                    <h2 class="hero-title">
+                        <span class="surface-title">最新活动！MBTI 伴生兽巡游计划</span>
+                        <span class="under-title">抽象动物#￥$收容——失效现#$场？</span>
+                    </h2>
+
+                    <p class="hero-text surface-copy">
+                        这里看起来是一座面向年轻游客的未来系动物园：
+                        你会根据 MBTI 被分配到不同阵营，在园区里邂逅拟人化伴生兽，
+                        收集带有塔罗质感的角色图鉴，请务必在游客守则中完成巡游。
+                    </p>
+
+                    <p class="hero-text under-copy">
+                        原本高定质感的动物园外壳开始剥落，留下一个专门收容抽象动物的混沌场所。
+                        一切说明都不再可靠，一切生物都像是从？？？逃出来的。
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#cards">查看图鉴</a>
+                        <a class="btn btn-secondary" href="#rules">阅读守则</a>
+                    </div>
+
+                    <ol class="journey-list surface-copy">
+                        <li>进入园区，领取你的 MBTI 阵营身份。</li>
+                        <li>阅读游客守则，避免与“不存在”的生物对视。</li>
+                        <li>前往图鉴区，收集属于你的伴生兽塔罗牌。</li>
+                    </ol>
+
+                    <ol class="journey-list under-copy">
+                        <li>不要问这里为什么会有奶龙。</li>
+                        <li>听到叮咚鸡时请先确认自己的健康码。</li>
+                        <li>大狗叫不一定危险，但一定很闷。</li>
+                    </ol>
+                </div>
+
+                <aside class="hero-aside">
+                    <div class="status-card">
+                        <img src="images/hero-white-tiger.png" alt="动物园主视觉海报">
+                        <div class="status-content">
+                            <p class="status-tag">今日状态</p>
+                            <h3 class="surface-copy">开放中：星雾巡游 / 塔罗图鉴联动</h3>
+                            <h3 class="under-copy">失控中：收容柜 / 广播 / 梗图泄露</h3>
+
+                            <ul class="status-list">
+                                <li><strong>入口标识：</strong> 北门观测塔</li>
+                                <li><strong>推荐路线：</strong> 猫科馆 → 神秘牌阵区 → 中央回廊</li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+        </header>
+
+        <main class="site-main">
+            <section class="panel" id="rules">
+                <div class="section-heading">
+                    <p class="section-kicker">RUL3S / GU1D3L1NES</p>
+                    <h2>游客守则与异常广播</h2>
+                    <p>请务必遵守以下规则。</p>
+                </div>
+
+                <div class="rules-layout">
+                    <article class="info-card surface-panel">
+                        <h3>表世界游客守则</h3>
+                        <ul class="rules-list">
+                            <li>本园不存在会直立行走的红狐 NPC，若发现请立即闭眼并寻找安保人员。</li>
+                            <li>当雪豹馆广播连续三次提到“请回收你的影子”时，请不要回头确认影子是否仍属于你。</li>
+                            <li>若塔罗牌展示柜中的角色表情与你刚才看到的不一致，请假装自己没有注意到。</li>
+                            <li>夜场 21:13 后，白鹿不会再出现在雾桥附近；若出现，请不要向它询问出口。</li>
+                            <li>游客若听见熟悉的名字从水獭池底传来，请立刻离开水边，不要回头。</li>
+                        </ul>
+                    </article>
+
+                    <article class="info-card under-panel">
+                        <h3>里世界补充条款</h3>
+                        <ul class="rules-list weird-list">
+                            <li>奶龙可以看，但不要和它讨论减肥，它会用肚肚结束话题。</li>
+                            <li>叮咚鸡的广播不一定在通知你，也可能只是想把气氛弄得像上班。</li>
+                            <li>大狗叫出现时不要装镇定，装了也没用，反而更像表演型人格。</li>
+                            <li>任何写着“绝对安全”的区域都只是字比较大，不代表真的安全。</li>
+                            <li>如遇到整个页面开始发红，请不要刷新，那只是里世界在表达情绪。</li>
+                        </ul>
+                    </article>
+
+                    <aside class="board-card">
+                        <h3>中央公告板</h3>
+                        <table class="info-table">
+                            <thead>
+                                <tr>
+                                    <th>区域</th>
+                                    <th>主角</th>
+                                    <th>信号</th>
+                                    <th>状态</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>猫科暗影馆</td>
+                                    <td>智识雪豹</td>
+                                    <td>冷蓝呼吸灯</td>
+                                    <td>可参观</td>
+                                </tr>
+                                <tr>
+                                    <td>中央广播廊</td>
+                                    <td>叮咚鸡</td>
+                                    <td>重复通知音</td>
+                                    <td>谨慎接近</td>
+                                </tr>
+                                <tr>
+                                    <td>黄色收容仓</td>
+                                    <td>奶龙</td>
+                                    <td>肚肚反光</td>
+                                    <td>高人气</td>
+                                </tr>
+                                <tr>
+                                    <td>外场回声区</td>
+                                    <td>大狗叫</td>
+                                    <td>突发犬吠</td>
+                                    <td>声音超标</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </aside>
+                </div>
+            </section>
+
+            <section class="panel" id="cards">
+                <div class="section-heading">
+                    <p class="section-kicker">CARD GALLERY</p>
+                    <h2>图鉴展区</h2>
+                </div>
+
+                <div class="beast-grid surface-grid">
+                    <article class="card gloss-card">
+                        <img src="images/mbti-leopard.png" alt="INTJ 智识雪豹">
+                        <div class="card-body">
+                            <span class="card-label">TAROT 01</span>
+                            <h3>INTJ · 智识雪豹</h3>
+                            <p class="card-subtitle">理性、克制、洞察力过强</p>
+                            <p>昼伏夜出的策士型馆主，擅长在游客还没发问前，就先看穿问题本身。</p>
+                        </div>
+                    </article>
+
+                    <article class="card gloss-card">
+                        <img src="images/mbti-dog.png" alt="ENFP 元气修勾">
+                        <div class="card-body">
+                            <span class="card-label">TAROT 02</span>
+                            <h3>ENFP · 元气修勾</h3>
+                            <p class="card-subtitle">热情、社交、气氛组队长</p>
+                            <p>你永远不知道它下一秒会扑向谁，但你知道它一定会先把快乐扑过来。</p>
+                        </div>
+                    </article>
+
+                    <article class="card gloss-card">
+                        <img src="images/mbti-deer.png" alt="INFJ 星雾白鹿">
+                        <div class="card-body">
+                            <span class="card-label">TAROT 03</span>
+                            <h3>INFJ · 星雾白鹿</h3>
+                            <p class="card-subtitle">温柔、神秘、预言感极强</p>
+                            <p>常出没于薄雾与月光交界处，似乎总在替游客保守某个不该知道的答案。</p>
+                        </div>
+                    </article>
+
+                    <article class="card gloss-card">
+                        <img src="images/mbti-fox.png" alt="ESTP 烈风赤狐">
+                        <div class="card-body">
+                            <span class="card-label">TAROT 04</span>
+                            <h3>ESTP · 烈风赤狐</h3>
+                            <p class="card-subtitle">果断、机动、天生带一点野</p>
+                            <p>喜欢追逐未知，也喜欢把规矩踩在线上来回试探，是园区最会带节奏的存在。</p>
+                        </div>
+                    </article>
+
+                    <article class="card gloss-card">
+                        <img src="images/mbti-owl.png" alt="INTP 夜航枭">
+                        <div class="card-body">
+                            <span class="card-label">TAROT 05</span>
+                            <h3>INTP · 夜航枭</h3>
+                            <p class="card-subtitle">思辨、冷幽默、擅长拆解万物</p>
+                            <p>别人还在看热闹，它已经把整个规则系统拆成可被讨论的结构图了。</p>
+                        </div>
+                    </article>
+
+                    <article class="card gloss-card">
+                        <img src="images/mbti-panda.png" alt="ISFJ 守序熊猫">
+                        <div class="card-body">
+                            <span class="card-label">TAROT 06</span>
+                            <h3>ISFJ · 守序熊猫</h3>
+                            <p class="card-subtitle">温厚、可靠、园区秩序维护者</p>
+                            <p>负责把失控的故事重新摆回轨道，但它自己似乎也有一段不愿回忆的旧档案。</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="meme-grid under-grid">
+                    <article class="card chaos-card">
+                        <img src="images/nailong.jpg" alt="奶龙">
+                        <div class="card-body">
+                            <span class="card-label">收容物 001</span>
+                            <h3>奶龙</h3>
+                            <p class="card-subtitle">某种奶黄色、圆滚滚、说不清到底为什么这么火的生物</p>
+                            <p>为什么它一直在笑？</p>
+                        </div>
+                    </article>
+
+                    <article class="card chaos-card">
+                        <img src="images/dingdongji.jpg" alt="叮咚鸡">
+                        <div class="card-body">
+                            <span class="card-label">收容物 002</span>
+                            <h3>叮咚鸡</h3>
+                            <p class="card-subtitle">广播一响，打工魂先醒的变异家禽</p>
+                            <p>它不负责下蛋，只负责让人回到某个既熟悉又陌生的时光？奇怪，怎么有一种压迫感？</p>
+                        </div>
+                    </article>
+
+                    <article class="card chaos-card">
+                        <img src="images/dagoujiao.jpg" alt="大狗叫">
+                        <div class="card-body">
+                            <span class="card-label">收容物 003</span>
+                            <h3>大狗叫</h3>
+                            <p class="card-subtitle">一种不一定看得见，但一定先听得见的存在</p>
+                            <p>为什么有一种莫名的熟悉感？</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="panel" id="archive">
+                <div class="section-heading">
+                    <p class="section-kicker">ARCHIVE / FOOTNOTE</p>
+                    <h2>园区档案</h2>
+                    <p>以下档案由园区保存。请游客阅读，但不要试图验证其中每一条内容。</p>
+                </div>
+
+                <div class="archive-layout">
+                    <article class="info-card surface-panel">
+                        <h3>巡游档案</h3>
+                        <p>
+                            在公开资料中，这里是一座面向年轻游客开放的未来系动物园。
+                            园区以“伴生兽计划”为核心策展思路，将不同性格原型映射为各具象征意义的动物个体，
+                            并通过巡游、图鉴与夜场灯光演出，构建一套介于都市传说与童话展览之间的参观体验。
+                        </p>
+                        <ul class="plain-list">
+                            <li>北门观测塔是所有游客进入园区后的第一个坐标点，也是巡游路线的起始处。</li>
+                            <li>中央回廊陈列着历代伴生兽档案卡，部分卡片会在不同天气下呈现略有差异的表情。</li>
+                            <li>雾桥区域长期维持低照度与轻雾环境，据说更容易与“高共鸣个体”相遇。</li>
+                            <li>猫科暗影馆、白鹿温室与夜航枭穹顶被并称为园区最受欢迎的三大观测点。</li>
+                            <li>园方始终强调：请将所有异常体验理解为沉浸式设计的一部分。</li>
+                        </ul>
+                    </article>
+
+                    <article class="info-card under-panel">
+                        <h3>收容档案</h3>
+                        <p>
+                            未公开的底层记录显示，这座动物园并不只负责展示，也负责收容。
+                            某些“生物”并不具备严格意义上的动物学分类，它们更像是由网络记忆、集体情绪与重复传播
+                            凝结而成的拟态存在。一旦表层秩序松动，它们就会从被观看的展品，变成主动观看游客的东西。
+                        </p>
+                        <ul class="plain-list">
+                            <li>黄色收容仓长期保留给奶龙，档案备注写着：其危险性不高，但扩散性极强。</li>
+                            <li>中央广播廊在深夜会自动循环叮咚鸡相关录音，来源未知，且无法彻底删除。</li>
+                            <li>外场回声区并未真正饲养犬类，但“大狗叫”现象仍会在特定时段稳定出现。</li>
+                            <li>部分游客离园后仍会在数日内听见园区广播，这种情况通常被记录为“延迟共振”。</li>
+                            <li>如你已经看见这份档案，请不要试图区分哪些内容是设定，哪些内容不是。</li>
+                        </ul>
+                    </article>
+
+                    <aside class="link-card">
+                        <h3>档案索引</h3>
+                        <ul class="link-list">
+                            <li><a href="#top">返回入口大厅</a></li>
+                            <li><a href="#rules">调取游客守则</a></li>
+                            <li><a href="#cards">查阅图鉴展区</a></li>
+                            <li><a href="#archive">停留当前档案页</a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>©2024级数字媒体技术3班 王嘉齐 202411023003</p>
+        </footer>
+    </div>
+</body>
+</html>
